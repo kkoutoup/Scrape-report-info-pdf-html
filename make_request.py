@@ -6,10 +6,13 @@ import lxml
 from lxml import html
 import sys
 
+# local modules
+import config
+
 # grab content from parent page
 def make_request(url, message="=> Collecting information"):
     print(message)
-    my_request = urllib.request.Request(url, headers = {  }) # add user agent to avoid 403 - access forbidden
+    my_request = urllib.request.Request(url, headers = config.user_agent) # add user agent to avoid 403 - access forbidden
     try:
         with urllib.request.urlopen(my_request) as response:
             print(f"Response status: { response.status } - { url }")

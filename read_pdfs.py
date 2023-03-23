@@ -7,6 +7,7 @@ import logging, sys
 # local modules
 from helper_functions import extract_pdf_cover_text
 from scrape_pdf_links import scrape_pdf_urls_from_page
+import config
 
 # read pdfs and store data
 def get_pdf_content(url):
@@ -16,7 +17,7 @@ def get_pdf_content(url):
     pdf_content = []
     # loop through links, extract text from first page and store in list
     for item in pdf_links:
-        my_request = urllib.request.Request(item, headers = {  }) # add user agent to avoid 403 - access forbidden  
+        my_request = urllib.request.Request(item, headers = config.user_agent ) # add user agent to avoid 403 - access forbidden  
         try:
             with urllib.request.urlopen(my_request) as response: 
                 print(f"Response status: { response.status } - { item }")

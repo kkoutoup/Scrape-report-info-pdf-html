@@ -9,7 +9,7 @@ A script devised to support a large migration activity of data from old Parliame
 
 ## Instructions
 - Download repo
-- Run ```scrape-report-info.py```\
+- Run ```scrape-report-info.py```
 
 **NOTE:** a ```User-Agent``` dict needs to be added to ```make_request.py``` and ```read_pdfs.py``` request headers.
 

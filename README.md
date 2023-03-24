@@ -35,4 +35,4 @@ Built in Python 3.11.2 and using the following modules
 - sys
 
 ## Developed by
-Kostas Koutoupis (@kkoutoup) for the Committee Online Services (COS) team, House of Commons
+Kostas Koutoupis ([@kkoutoup](https://github.com/kkoutoup)) for the Committee Online Services (COS) team, House of Commons

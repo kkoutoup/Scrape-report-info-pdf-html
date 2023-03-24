@@ -25,7 +25,7 @@ The following data is collected for each publication:
 
 ## Dependencies
 Built in Python 3.11.2 and using the following modules
-- ([@PyPDF2](https://pypdf2.readthedocs.io/en/3.0.0/))
+- [@PyPDF2](https://pypdf2.readthedocs.io/en/3.0.0/)
 - urllib
 - logging
 - re

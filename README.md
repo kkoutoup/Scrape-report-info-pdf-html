@@ -1,4 +1,4 @@
-# Scrape-report-info-pdf-html
+# Scrape report info from pdf and html
 A Python script that extracts information from html pages and online PDFs. Gathered information is exported in ```json``` and ```csv``` format.
 
 ## Category
